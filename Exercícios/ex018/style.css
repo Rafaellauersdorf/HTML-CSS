@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@font-face {
+    font-family:'Love';
+    src: url('fonts/love\ larry\ ttf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Work Sans', Arial, Verdana, sans-serif;
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    }
+h1 {
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 3em;
+}
+h2 {
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 2em;
+}
+h3 {
+    font-family: 'Fredericka the Great';
+    font-size: 3em;
+    font-weight: normal;
+}
+p {
+    font-family: 'Satisfy';
+    font-weight: 700;
+}
+h4 {
+    font-family: 'love';
+    font-size: 3em;
+    font-weight: normal;
+}

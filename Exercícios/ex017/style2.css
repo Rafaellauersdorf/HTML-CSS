@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body {
+    font: normal 16px Arial, Verdana, serif;
+    background-image: linear-gradient(to top, blue,green,yellow,purple);
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+h2 {
+    text-align: center;
+    color: blue;
+}
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
