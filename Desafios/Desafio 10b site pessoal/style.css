@@ -87,3 +87,6 @@ footer {
 footer p {
     font-weight: bold;
 }
+footer strong {
+    font-size: larger;
+}
