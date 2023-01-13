@@ -12,9 +12,27 @@ Grandes telas: Acima de 1200px
 */
 
 @media print { /*IMPRESSÃO*/
-    body {
-        background-image: url(../imagens/back-print.jpg);
+    *{
+        font-family: 'Courier New', Courier, monospace;
     }
+    body { /* Desnecessário, pois nao aparece background em impressões */
+        background-image: url(../imagens/back-print.jpg); 
+    }
+
+    main {
+        border: 2px solid black;
+    }
+
+    main::after {
+        content: 'Essa impressão foi feita através de Rafael Lauersdorf para fins de estudo';
+        text-decoration: overline;
+    }
+
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
+
     #phone { display: none; }
     #tablet { display: none; }
     #print { display: block; }
