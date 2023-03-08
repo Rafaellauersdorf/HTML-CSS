@@ -13,13 +13,10 @@ header  {
     min-width: 350px;
     max-width: 2200px;
     min-height: 150px;
-    
-    
-       
+          
 }
 header h1 {
-    font-size: 3em;
-    
+    font-size: 3em;    
     color: white;
     margin-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.308);
